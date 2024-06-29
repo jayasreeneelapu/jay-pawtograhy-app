@@ -28,6 +28,7 @@ I began learning the frontend framework React and used this project as a practic
 - (error)Resolve the mobile viewing exp of the image carousels arrow marks and frame-size
 - (error)Contact section email expanding beyond the mobile screen
 - email icon at the bottom right of the screen ( ~ chatbot icon )
+- Contact font size can be reduced.
 
 ## References
 - [Code Complete: Complete React Portfolio Website TutorialReact](https://youtu.be/YQCDUJ6hhNY?si=PEF0c2lfdJO3UAKS)
