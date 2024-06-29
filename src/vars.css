@@ -1,0 +1,26 @@
+:root {
+    /* Colors */
+    --color-text: #fff;
+
+    --color-primary: #576cbc;
+    --color-secondary: #19376d;
+    --color-dark: #0b2447;
+    --color-bg: #4E342E;
+    --color-bg-dark: #3d2824;
+    --color-bg-light: #a36c61;
+    --color-bg-highlight: #794033;
+    
+    --color-sub-text: #D7CCC8;
+
+    /* Fonts */
+    --font-roboto: "Roboto";
+    --font-lora: "Lora";
+    --font-raleway: "Raleway";
+    --font-merriweather: "Merriweather";
+
+        /* text color #4E342E  #fff light brown #FFF8E1;
+    #D7CCC8; Soft Beige 
+    #FFF8E1; Light Cream 
+    
+    */
+}

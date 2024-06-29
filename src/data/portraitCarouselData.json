@@ -1,0 +1,20 @@
+{
+  "portraitSlides": [
+    {
+      "src": "drew_images/pandu_p.JPG",
+      "alt": "dog_portrait"
+    },
+    {
+      "src": "drew_images/Subbu.jpeg",
+      "alt": "dog_portrait"
+    },
+    {
+      "src": "drew_images/subbu_wide_p.PNG",
+      "alt": "dog_portrait"
+    },
+    {
+      "src": "drew_images/rio_p.PNG",
+      "alt": "dog_portrait"
+    }
+  ]
+}
