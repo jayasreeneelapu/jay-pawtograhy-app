@@ -30,8 +30,8 @@ I began learning the frontend framework React and used this project as a practic
 - email icon at the bottom right of the screen ( ~ chatbot icon )
 
 ## References
-- [Code Complete: Complete React Portfolio Website TutorialReact] (https://youtu.be/YQCDUJ6hhNY?si=PEF0c2lfdJO3UAKS)
-- [Code Complete: Image Carousel] (https://youtu.be/QpsGo8kZiTo?si=Kr8tKhkdl8waLxSj)
+- [Code Complete: Complete React Portfolio Website TutorialReact](https://youtu.be/YQCDUJ6hhNY?si=PEF0c2lfdJO3UAKS)
+- [Code Complete: Image Carousel](https://youtu.be/QpsGo8kZiTo?si=Kr8tKhkdl8waLxSj)
   
 
   
