@@ -25,10 +25,11 @@ I began learning the frontend framework React and used this project as a practic
 - Instructions before ordering ( should be able to collapse )
 - Order email should pre-populate with a sample body
 - links should be opened in new tab
-- (error)Resolve the mobile viewing exp of the image carousels arrow marks and frame-size
-- (error)Contact section email expanding beyond the mobile screen
+- swipe functionality to image carousels
 - email icon at the bottom right of the screen ( ~ chatbot icon )
-- Contact font size can be reduced.
+- <s>(error)Resolve the mobile viewing exp of the image carousels arrow marks and frame-size</s>
+- <s>(error)Contact section email expanding beyond the mobile screen</s>
+- <s>Contact font size can be reduced.</s>
 
 ## References
 - [Code Complete: Complete React Portfolio Website TutorialReact](https://youtu.be/YQCDUJ6hhNY?si=PEF0c2lfdJO3UAKS)
