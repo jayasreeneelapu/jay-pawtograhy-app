@@ -1,6 +1,7 @@
 @import "../../vars.css";
 
 .work {
+    position: relative;
     background-color: #fff;
     padding-top: 3%;
     color: black;

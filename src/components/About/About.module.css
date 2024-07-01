@@ -1,5 +1,6 @@
 @import "../../vars.css";
 .about {
+    position: relative;
     background-color: #fff;
     padding-top: 5%;
     color: black;

@@ -1,6 +1,7 @@
 @import "../../vars.css";
 
 .container {
+    position: relative;
     background-color: var(--color-bg-light);
     color: #afaeae;
     text-align: center;

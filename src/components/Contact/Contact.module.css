@@ -1,6 +1,7 @@
 @import "../../vars.css";
 
 .container {
+    position: relative;
     color: var(--color-text);    
     background-color: var(--color-bg-light);
     padding-top: 120px;
