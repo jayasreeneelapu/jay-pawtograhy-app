@@ -1,14 +1,18 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/">
+      {/* <a className={styles.title} href="/">
         Jay Pawtography
-      </a>
+      </a> */}
+      <Link to="/" className={styles.title}>
+        Jay Pawtography
+      </Link>
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}

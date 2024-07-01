@@ -10,9 +10,9 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>I'm Pandu, Jay's assistant.</h1>
         <p className={styles.description}>
-          I will help you with the pawtography tour here. Look at her work, if
-          you are impressed, you can mail us for placing an order or for any
-          questions.
+          I'll guide you through the Pawtography tour. Take a look at her work,
+          and if you're impressed, feel free to email us to place an order or
+          ask any questions.
         </p>
         <p className={styles.description}>
           I also make sure, 50% of the money is used for our paw-friends in

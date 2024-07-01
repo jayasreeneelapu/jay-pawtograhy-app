@@ -40,9 +40,9 @@
 
 .carouselSet {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
-    gap:10px;
+    gap:1px;
 }
 
 .carouselSet h3 {
@@ -64,6 +64,6 @@
     .carouselsContainer {
         flex-direction: column;
         justify-content:space-around;
-        gap:30px;
+        gap:55px;
     }
 }
