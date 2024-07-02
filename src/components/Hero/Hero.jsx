@@ -8,7 +8,7 @@ export const Hero = () => {
     <section className={styles.container}>
       <IdentityPic imgSrc="hero/pandu.png" title="Pandu" />
       <div className={styles.content}>
-        <h1 className={styles.title}>I'm Pandu, Jay's assistant.</h1>
+        <h1 className={styles.title}>Hi! I'm Pandu, Jay's assistant.</h1>
         <p className={styles.description}>
           I'll guide you through the Pawtography tour. Take a look at her work,
           and if you're impressed, feel free to email us to place an order or
