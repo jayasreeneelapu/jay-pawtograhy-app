@@ -9,10 +9,18 @@ export const Order = () => {
         <CustomEmail />
       </div>
       <div className={styles.instructions}>
-        <h3>Instructions</h3>
+        <h3>Commissioned Artwork Guidelines</h3>
         <ul>
           <li>
             Please upload <b>High Quality Images</b> only.
+          </li>
+          <li>
+            Due to our part-time availability, urgent orders can't be
+            accommodated. Pre-orders are welcome.
+          </li>
+          <li>
+            You will receive a digital copy of the artwork and a video
+            documenting the creation process.
           </li>
           <li>
             Upon clicking the <b>Order Here</b> button, an email draft appears.

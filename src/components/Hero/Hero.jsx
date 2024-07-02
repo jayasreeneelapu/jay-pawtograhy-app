@@ -15,8 +15,8 @@ export const Hero = () => {
           ask any questions.
         </p>
         <p className={styles.description}>
-          I also ensure that 50% of the money is used to help our paw-friends in
-          need.
+          I also ensure that a part of the proceeds from your commissioned art
+          will be dedicated to helping our paw-friends in need.
         </p>
         <Button link="mailto:toonsofjay@gmail.com" text="Mail us!" />
       </div>
