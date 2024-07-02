@@ -16,7 +16,13 @@ export const Contact = () => {
             alt="instaIcon"
             className={styles.icon}
           />
-          <a href="https://www.instagram.com/toons_of_jay/">Toons_of_Jay</a>
+          <a
+            href="https://www.instagram.com/toons_of_jay/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Toons_of_Jay
+          </a>
         </li>
         <li className={styles.link}>
           <img
@@ -32,7 +38,13 @@ export const Contact = () => {
             alt="websiteIcon"
             className={styles.icon}
           />
-          <a href="https://jayasreeneelapu.wordpress.com/">Jay's Portfolio</a>
+          <a
+            href="https://jayasreeneelapu.wordpress.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Jay's Portfolio
+          </a>
         </li>
       </ul>
     </section>

@@ -15,7 +15,10 @@
     padding-left: 10px;
     padding-right: 10px; */
 
-    padding: 30px;
+    padding-top: 45px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 
 
     margin-bottom: 3%;
@@ -23,37 +26,51 @@
     margin-right: 10%;
     gap: 30px;
 
-  
+    scroll-margin-top: 95px;
 }
 
 .instructions {
+    padding-top: 15px;
     color: var(--color-text);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 15px;
-    letter-spacing: 2px;
+    gap: 5px;
+    /* letter-spacing: 1.75px; */
 }
 .instructions h3 {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 700;
+    font-family: var(--font-roboto);
 }
 
 .instructions ul {
     font-size: 20px;
     font-weight: 400;
     list-style-position: inside;
+    font-family: var(--font-roboto);
+   
 }
 
 .instructions p {
     padding-top: 25px;
     font-size: 20px;
     font-weight: 400;
+    font-family: var(--font-roboto);
 }
 
 @media screen and (max-width: 830px) { 
+
 .instructions {
-  
+    gap: 10px;
+}
+.instructions ul {
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+.instructions p {
+    font-size: 15px;
+    padding-top: 15px;
 }
 
 }

@@ -13,6 +13,7 @@
     padding-top: 90px;
     background-color: var(--color-bg);
     width: 100vw;
+
 }
 
 .content {
@@ -31,9 +32,9 @@
     font-weight: 900;
     margin-bottom: 33px;
     font-family: var(--font-roboto);
-    background: linear-gradient(90deg,rgba(255, 255, 255, 1) 70%,rgba(255, 255, 255, 0) 120%);
+    /* background: linear-gradient(90deg,rgba(255, 255, 255, 1) 70%,rgba(255, 255, 255, 0) 120%);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    -webkit-background-clip: text; */
 }
 
 .description {
@@ -78,5 +79,13 @@
     }
     .content {
         align-items: center;
+    }
+    .title {
+        font-size: 30px;
+    }
+
+    .description {
+        font-size: 20px;
+        margin-bottom: 30px;
     }
 }

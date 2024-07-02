@@ -15,7 +15,7 @@ export const Hero = () => {
           ask any questions.
         </p>
         <p className={styles.description}>
-          I also make sure, 50% of the money is used for our paw-friends in
+          I also ensure that 50% of the money is used to help our paw-friends in
           need.
         </p>
         <Button link="mailto:toonsofjay@gmail.com" text="Mail us!" />

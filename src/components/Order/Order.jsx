@@ -15,13 +15,12 @@ export const Order = () => {
             Please upload <b>High Quality Images</b> only.
           </li>
           <li>
-            Upon clicking on <em>Order Here</em>, an email appears.
+            Upon clicking the <b>Order Here</b> button, an email draft appears.
           </li>
-          <li>Fill all the details mentioned in the email.</li>
+          <li>Please fill in all the requested details in the email.</li>
         </ul>
         <p>
-          *We will reply back to you with the price details and an estimated
-          delivery date.*
+          We will reply with the price details and an estimated delivery date.
         </p>
       </div>
     </section>

@@ -9,16 +9,26 @@ export const CustomEmail = () => {
     ***Please fill the below details, so we can get back to you for further discussion.***
 
     -------------------- EDIT HERE -------------------------
+
     1. Your Name :
+
     2. Drawing Type (Portrait/Group) :
+
     3. Your Pet's Name :
+
     4. Attached Reference Photo (Yes/No) :
+
     5. Expected Finish Date :
 
-    ---------------------------------------------------------
+    6. Anything else you want to add :
+
+
+
+    ---------------------------------------------------------------
 
     ***We will reply back within 24 hours to discuss further***
     ***Thank you for choosing us***
+    [Jay Pawtography] (https://jayasree100.github.io/jay-pawtograhy-app)
     `;
 
   const emailLink = `mailto:${recipient}?subject=${encodeURIComponent(
