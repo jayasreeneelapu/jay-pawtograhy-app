@@ -16,7 +16,7 @@ export const CustomEmail = () => {
 
     3. Your Pet's Name :
 
-    4. Attached Reference Photo (Yes/No) :
+    4. Attached Reference Photo(s) (Yes/No) :
 
     5. Expected Finish Date :
 
