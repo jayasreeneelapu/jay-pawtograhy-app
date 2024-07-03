@@ -28,7 +28,7 @@ export const CustomEmail = () => {
 
     ***We will reply back within 24 hours to discuss further***
     ***Thank you for choosing us***
-    [Jay Pawtography] (https://jayasree100.github.io/jay-pawtograhy-app)
+    Jay Pawtography: https://jayasreeneelapu.github.io/jay-pawtograhy-app/
     `;
 
   const emailLink = `mailto:${recipient}?subject=${encodeURIComponent(
