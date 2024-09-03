@@ -9,7 +9,7 @@ I began learning the frontend framework React and used this project as a practic
 
 ## Access my webiste here
 
-- [Jay Pawtography](https://jayasree100.github.io/jay-pawtograhy-app/)
+- [Jay Pawtography](https://jayasreeneelapu.github.io/jay-pawtograhy-app/)
 
 ## Technologies & Tools
 - React
