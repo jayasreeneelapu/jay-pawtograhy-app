@@ -15,6 +15,14 @@
     {
       "src": "drew_images/rio_p.PNG",
       "alt": "dog_portrait"
+    },
+    {
+      "src": "drew_images/jalebi_p.PNG",
+      "alt": "dog_portrait"
+    },
+    {
+      "src": "drew_images/donna_p.PNG",
+      "alt": "dog_portrait"
     }
   ]
 }

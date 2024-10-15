@@ -12,6 +12,7 @@ I began learning the frontend framework React and used this project as a practic
 - [Jay Pawtography](https://jayasreeneelapu.github.io/jay-pawtograhy-app/)
 
 ## Technologies & Tools
+
 - React
 - Javascript
 - HTML
@@ -21,6 +22,7 @@ I began learning the frontend framework React and used this project as a practic
 - React developer Tools
 
 ## To-do
+
 - Add Order Here functionality
 - Instructions before ordering ( should be able to collapse )
 - Order email should pre-populate with a sample body
@@ -31,11 +33,16 @@ I began learning the frontend framework React and used this project as a practic
 - <s>(error)Contact section email expanding beyond the mobile screen</s>
 - <s>Contact font size can be reduced.</s>
 
+## Running the app in local
+
+> npm install
+> npm run dev
+>
+> > commit the code & push to the repo
+> > npm run build
+> > npm run deploy
+
 ## References
+
 - [Code Complete: Complete React Portfolio Website TutorialReact](https://youtu.be/YQCDUJ6hhNY?si=PEF0c2lfdJO3UAKS)
 - [Code Complete: Image Carousel](https://youtu.be/QpsGo8kZiTo?si=Kr8tKhkdl8waLxSj)
-  
-
-  
-
-

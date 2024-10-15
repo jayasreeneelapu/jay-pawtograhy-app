@@ -1,44 +1,32 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import viteImagemin from 'vite-plugin-imagemin';
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'; // Changed to named import
 
-// https://vitejs.dev/config/
 export default defineConfig({
   base: "/jay-pawtograhy-app/",
   css: {
-    modules : {
-      localsConvention: "camelCase"
-    }
+    modules: {
+      localsConvention: "camelCase",
+    },
   },
   plugins: [
     react(),
-    viteImagemin({
-      gifsicle: {
-        optimizationLevel: 7,
-        interlaced: false,
-      },
-      optipng: {
-        optimizationLevel: 7,
-      },
-      mozjpeg: {
-        quality: 20,
-      },
-      pngquant: {
-        quality: [0.65, 0.9],
+    ViteImageOptimizer({
+      png: {
+        quality: [0.8, 0.9],
         speed: 4,
+      },
+      jpeg: {
+        quality: 75,
       },
       svgo: {
         plugins: [
           {
             name: 'removeViewBox',
           },
-          {
-            name: 'removeEmptyAttrs',
-            active: false,
-          },
         ],
       },
     }),
   ],
   assetsInclude: ['**/*.png', '**/*.PNG'],
-})
+});

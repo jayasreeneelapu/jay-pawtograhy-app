@@ -1,4 +1,4 @@
-.carousel {
+.carousel.unused {
     position: relative;
     width: 100%;
     max-width: 600px; /* Limit max width for larger screens */
@@ -7,16 +7,33 @@
     margin: 0 auto; /* Center align on larger screens */
   }
   
+  .carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    height: 400px; /* Fixed height for uniform display */
+    overflow: hidden;
+    margin: 0 auto;
+}
+
   .slidesContainer {
     display: flex;
     transition: transform 0.5s ease; /* Smooth slide transition */
   }
   
-  .slide {
+  .slide.unused {
     border-radius: 0.5rem;
     box-shadow: 0px 0px 7px #666;
     width: 100%;
     height: auto; /* Ensure images maintain aspect ratio */
+  }
+ 
+    .slide {
+      width: 100%; /* The image will take the full width of the container */
+      height: 400px; /* Set a fixed height to keep the carousel uniform */
+      object-fit: contain; /* Ensures the image covers the container while maintaining aspect ratio */
+      border-radius: 0.5rem;
+      box-shadow: 0px 0px 7px #666;
   }
   
   .slideHidden {
@@ -74,6 +91,9 @@
       max-width: 100%; /* Adjust max width for smaller screens */
       height: auto; /* Allow carousel to expand vertically */
     }
+    .slide {
+      height: 300px; /* Adjust height for smaller screens */
+  }
   
     .arrow {
       width: 1.5rem; /* Adjust arrow size for smaller screens */
