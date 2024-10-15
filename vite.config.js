@@ -13,11 +13,11 @@ export default defineConfig({
     react(),
     ViteImageOptimizer({
       png: {
-        quality: 80,
+        quality: 100,
         speed: 4,
       },
       jpeg: {
-        quality: 75,
+        quality: 100,
       },
       svgo: {
         plugins: [
